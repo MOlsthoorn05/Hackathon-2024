@@ -13,10 +13,22 @@
 
 <body>
     <header>
-        <img src="logo-03.png" alt="">
+        <img src="img/logo-03.png" alt="" id="morphe-logo">
     </header>
     <main>
         <section id="bgform">
+            <section id="bar-info">
+                <div id="progress-vak">
+                    <!-- <article id="progress-bar"></article> -->
+                </div>
+                <article id="bar-line">
+
+                </article>
+            </section>
+            <section id="vak-info">
+                <h1 id="vak-kop">Contact details</h1>
+                <p id="vak-tekst">Vul je contactgegevens in zodat we je de resultaten kunnen sturen</p>
+            </section>
             <form action="reservering.php" method="post">
                 <section>
                     <article>
@@ -38,14 +50,11 @@
                         <input type="text" class="klein" name="email">
                     </article>
                 </section>
-                <section>
-                    <article>
-                        <button type="submit" name="send" id="send">Volgende stap</button>
-                    </article>
-                </section>
+                <article id="button-vak">
+                    <button type="submit" name="send" id="send">Volgende stap</button>
+                </article>
             </form>
         </section>
-        
     </main>
 </body>
 
