@@ -86,6 +86,7 @@ main {
     color: var(--tekst-kleur);
     font-family: var(--font-family-tekst);
     margin: 0;
+    padding-bottom: 1vh;
 }
 
 form {
@@ -158,6 +159,7 @@ input {
 }
 
 #send {
+    font-family: var(--font-family-tekst);
     background-color: var(--kop-kleur);
     color: var(--tekst-kleur);
     height: 40px;
@@ -167,6 +169,7 @@ input {
 }
 
 #terug {
+    font-family: var(--font-family-tekst);
     background-color: rgb(79, 78, 78);
     color: var(--tekst-kleur);
     height: 40px;
@@ -195,7 +198,7 @@ input {
     align-items: center;
     gap: 5px;
     background-color: var(--form-bg-color);
-    height: 75vh;
+    min-height: 75vh;
     width:  65%;
     border-radius: 30px;
 }
@@ -213,7 +216,9 @@ input {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 25vh;
+    gap: 10px;
+    min-height: 25vh;
+    padding-bottom: 2vh;
 }
 
 .antwoord {
