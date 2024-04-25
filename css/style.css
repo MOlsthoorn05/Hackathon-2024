@@ -103,12 +103,15 @@ main {
 }
 
 form {
+    display: grid;
+    grid-template-columns: 58vw;
     width: 900px;
     height: 40vh;
     padding: 10px;
 }
 
 form section {
+    display: flex;
     margin-bottom: 10px;
     width: 100%;
     gap: 30px;
@@ -168,7 +171,7 @@ input {
     display: flex;
     justify-content: space-between;
     height: 8vh;
-    width: 93%;
+    width: 58vw;
 }
 
 #send {
@@ -177,6 +180,16 @@ input {
     color: var(--tekst-kleur);
     height: 40px;
     width: 40%;
+    border-radius: 30px;
+    border: solid var(--kop-kleur);
+}
+
+#sendMain {
+    font-family: var(--font-family-tekst);
+    background-color: var(--kop-kleur);
+    color: var(--tekst-kleur);
+    height: 40px;
+    width: 100%;
     border-radius: 30px;
     border: solid var(--kop-kleur);
 }
@@ -192,6 +205,12 @@ input {
 }
 
 #send:hover {
+    cursor: pointer;
+    background-color: rgb(114, 171, 201, 0.4);
+    border: solid rgb(114, 171, 201, 0.4);
+}
+
+#sendMain:hover {
     cursor: pointer;
     background-color: rgb(114, 171, 201, 0.4);
     border: solid rgb(114, 171, 201, 0.4);
