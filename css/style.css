@@ -161,3 +161,14 @@ input {
     background-color: rgb(114, 171, 201, 0.4);
 }
 
+.hiddentext {
+    display: none;
+}
+
+.hiddentext2 {
+    display: none;
+}
+
+.hiddentext3 {
+    display: none;
+}
