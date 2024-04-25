@@ -61,6 +61,19 @@ main {
     border-radius: 30px;
 }
 
+#progress-bar2 {
+    height: 15px;
+    width: 50%;
+    background-color: var(--kop-kleur);
+    border-radius: 30px;
+}
+#progress-bar3 {
+    height: 15px;
+    width: 75%;
+    background-color: var(--kop-kleur);
+    border-radius: 30px;
+}
+
 #bar-line {
     height: 1px;
     width: 100%;
