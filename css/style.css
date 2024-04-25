@@ -56,7 +56,7 @@ main {
 
 #progress-bar {
     height: 15px;
-    width: 10%;
+    width: 25%;
     background-color: var(--kop-kleur);
     border-radius: 30px;
 }
@@ -82,10 +82,11 @@ main {
     margin: 0;
 }
 
-#vak-tekst {
+.vak-tekst {
     color: var(--tekst-kleur);
     font-family: var(--font-family-tekst);
     margin: 0;
+    padding-bottom: 1vh;
 }
 
 form {
@@ -97,13 +98,17 @@ form {
 form section {
     margin-bottom: 10px;
     width: 100%;
-    display: flex;
     gap: 30px;
 }
 
 form article {
     margin-bottom: 5px;
     width: 50%;
+}
+
+.veld-vraag1 {
+    margin-bottom: 5px;
+    width: 100%;
 }
 
 label {
@@ -127,13 +132,16 @@ input {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    gap: 10px;
+    gap: 5px;
     background-color: var(--form-bg-color);
     height: 70vh;
     width:  65%;
     border-radius: 30px;
 }
 
+.groot {
+    width: 100%;
+}
 
 #telefoonnummer {
     width: 200%;
@@ -144,21 +152,100 @@ input {
 }
 
 #button-vak {
-    width: 101%;
+    display: flex;
+    justify-content: space-between;
+    height: 8vh;
+    width: 93%;
 }
 
 #send {
+    font-family: var(--font-family-tekst);
     background-color: var(--kop-kleur);
     color: var(--tekst-kleur);
     height: 40px;
-    width: 100%;
+    width: 40%;
     border-radius: 30px;
     border: solid var(--kop-kleur);
+}
+
+#terug {
+    font-family: var(--font-family-tekst);
+    background-color: rgb(79, 78, 78);
+    color: var(--tekst-kleur);
+    height: 40px;
+    width: 40%;
+    border-radius: 30px;
+    border: solid rgb(79, 78, 78);
 }
 
 #send:hover {
     cursor: pointer;
     background-color: rgb(114, 171, 201, 0.4);
+    border: solid rgb(114, 171, 201, 0.4);
+}
+
+#terug:hover {
+    cursor: pointer;
+    background-color: rgb(106, 105, 105);
+    border: solid rgb(106, 105, 105);
+}
+
+/* VRAAG 1 CSS  */
+#bgform2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--form-bg-color);
+    min-height: 75vh;
+    width:  65%;
+    border-radius: 30px;
+}
+
+
+#vraag-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 15vh;
+    width: 90%;
+}
+
+#antwoorden {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 10px;
+    min-height: 25vh;
+    padding-bottom: 2vh;
+}
+
+.antwoord {
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    border: solid white;
+    border-radius: 30px;
+    height: 40px;
+    background-color: #4E5B65;
+    color: white;
+}
+
+.antwoord:hover {
+    cursor: pointer;
+}
+
+.form-tekst {
+    color: var(--tekst-kleur);
+    font-family: var(--font-family-tekst);
+    margin: 0;
+    padding-left: 1vw;
+}
+
+.active {
+    background-color: blue;
+    color: white;
 }
 
 .hiddentext {
