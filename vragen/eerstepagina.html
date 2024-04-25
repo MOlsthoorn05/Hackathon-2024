@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="B. Bazaine, kris van der krogt, Melvin olsthoorn, Dominik Bulla, Hussen Ali">
+    <meta name="keywords" content="">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="img/logo-03.png" alt="" id="morphe-logo">
+    </header>
+    <main>
+        <section id="bgform">
+            <section id="bar-info">
+                <div id="progress-vak">
+                    <!-- <article id="progress-bar"></article> -->
+                </div>
+                <article id="bar-line">
+
+                </article>
+            </section>
+            <section id="vak-info">
+                <h1 id="vak-kop">Contact details</h1>
+                <p id="vak-tekst">Vul je contactgegevens in zodat we je de resultaten kunnen sturen</p>
+            </section>
+            <form action="vraag1.html" method="post">
+                <section>
+                    <article>
+                        <label>Voornaam</label><br>
+                        <input type="text" class="klein" name="name"><br>
+                    </article>
+                    <article>
+                        <label>Achternaam</label><br>
+                        <input type="text" class="klein" name="achternaam">
+                    </article>
+                </section>
+                <section>
+                    <article>
+                        <label>Telefoonnummer</label><br>
+                        <input type="text" class="klein" name="telefoonnummer">
+                    </article>
+                    <article>
+                        <label>Email</label><br>
+                        <input type="text" class="klein" name="email">
+                    </article>
+                </section>
+                <article id="button-vak">
+                    <button type="submit" name="send" id="send">Volgende stap</button>
+                </article>
+            </form>
+        </section>
+
+        <form action="reservering.php" method="post" class="hiddentext">
+            <section>
+                <article>
+                    <label>Mijn organisatie is</label><br>
+
+                </article>
+                <article>
+                    <label>MKB (&lt; 250 fte)</label><br>
+                    <input type="text" class="klein" name="antwoord">
+                </article>
+            </section>
+            <section>
+                <article>
+                    <label>Groot (250 - 1000 fte)</label><br>
+                    <input type="text" class="klein" name="antwoord">
+                </article>
+                <article>
+                    <label>XL (1000+ fte)</label><br>
+                    <input type="text" class="klein" name="antwoord">
+                </article>
+            </section>
+            <article id="button-vak">
+                <button type="submit" name="send" id="send">Volgende stap</button>
+            </article>
+        </form>
+
+        <form action="reservering.php" method="post" class="hiddentext2">
+            <section>
+                <article>
+                    <label>De IT dienstverlening binnen mijn organisatie:</label><br>
+
+                </article>
+                <article>
+                    <label>Is uit zijn jasje gegroeid</label><br>
+                    <input type="text" class="klein" name="antwoord">
+                </article>
+            </section>
+            <section>
+                <article>
+                    <label>Kan naar een hoger niveau</label><br>
+                    <input type="text" class="klein" name="antwoord">
+                </article>
+                <article>
+                    <label>Heeft te maken met (nieuwe) wet en regelgeving</label><br>
+                    <input type="text" class="klein" name="antwoord">
+                </article>
+                <article>
+                    <label>Is goed zoals het is</label><br>
+                    <input type="text" class="klein" name="antwoord">
+                </article>
+            </section>
+            <article id="button-vak">
+                <button type="submit" name="send" id="send">Volgende stap</button>
+            </article>
+        </form>
+
+        <form action="reservering.php" method="post" class="hiddentext3">
+            <section>
+                <article>
+                    <label>Dit komt door</label><br>
+                </article>
+                <article>
+                    <label>Organische groei</label><br>
+                    <input type="text" class="klein" name="antwoord">
+                </article>
+            </section>
+            <section>
+                <article>
+                    <label>Fusie</label><br>
+                    <input type="text" class="klein" name="antwoord">
+                </article>
+            </section>
+            <article id="button-vak">
+                <button type="submit" name="send" id="send">Volgende stap</button>
+            </article>
+
+        </form>
+    </main>
+</body>
+
+</html>
