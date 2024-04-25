@@ -15,7 +15,6 @@
 html, body {
     margin: 0;
     padding: 0;
-    background-color: var(--bg-color);
 }
 
 header {
@@ -291,3 +290,15 @@ input {
 .hiddentext3 {
     display: none;
 }
+
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  
